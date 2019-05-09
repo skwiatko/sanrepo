@@ -140,7 +140,7 @@ namespace POLab2_v2
         public void Zad4_v1()
         {
             Student o1 = new Student("Panda", "Trzy", "01.01.2000", 3, 3, 33333);
-            Student o2 = new Student("Beata", "Wiśniewska", "02.05.1997", 2, 1, 12345);
+            Student o2 = new Student("Beata", "Dwa", "11.1.1981", 2, 1, 12345);
 
             Console.WriteLine("\n\nStudent 1:\n");
 
@@ -150,7 +150,7 @@ namespace POLab2_v2
 
             o2.WypiszInfo();
 
-            Student o3 = new Student("Sylwester", "Kwiatkowski", "15.11.1992", 1, 2,
+            Student o3 = new Student("Sylwester", "Jeden", "11.11.1991", 1, 2,
             432785);
 
             Console.WriteLine("\n\nStudent 3:\n");
